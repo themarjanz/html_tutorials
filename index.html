@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is html file">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1>Marjan</h1>
+    <!-- image -->
+    <img src="./assets/images/marjan.jpeg" width="300" height="300" alt="profile">
+    <!-- host image -->
+    <img src="https://i.postimg.cc/jjWfz67j/unplash.jpg" width="300" height="300" alt="">
+    <br>
+    <!-- Uncode font icon -->
+    <em><strong>akhlatur 🤣</strong></em>
+    <mark>&hearts;mark</mark>
+    <!-- Font aweosme -->
+    <i class="fa-solid fa-heart-crack"></i>
+    <i class="fab fa-youtube-square"></i>
+    <i class="fab fa-facebook-square"></i>
+    <hr>
+    <!-- Header -->
+    <h2>Marjan</h2>
+    <h3>Marjan</h3>
+    <h4>Marjan</h4>
+    <h5>Marjan</h5>
+    <h6>Marjan</h6>
+    <!-- order list -->
+    <ol type="a">
+        <li>Marjan</li>
+        <li>Sejan</li>
+        <li>Saikat</li>
+    </ol>
+
+    <!-- unorederd list -->
+    <ul>
+        <li>Marjan</li>
+        <li>Sejan</li>
+        <li>Saikat</li>
+    </ul>
+    <!-- description list -->
+    <dl>
+        <dt>Html</dt>
+        <dd>I love coding</dd>
+    </dl>
+    <!-- Link -->
+    <a href=""> Visit Google</a>
+    <!-- Make this link describe able -->
+    <a href="#">Home</a>
+    <a target="_blank" href="/about.html">About</a>
+
+    <a target="_blank" href="https://www.google.com/"><i class="fab fa-google"></i></a>
+
+    <!-- Iframe -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.1228226063536!2d91.72827747422674!3d24.307350567169138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37517b10cb4785bb%3A0x2db1d5eb89e442c0!2sMaster%20Bari!5e0!3m2!1sen!2sbd!4v1695891058889!5m2!1sen!2sbd"
+        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
+
+    <iframe src="https://www.eparee.com/" width="600" height="400" frameborder="0" title="website"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1rrjJCYjfNQ?si=fQK1-ROQQgCQ1r1g"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <!-- Audio videio -->
+    <video width="320" height="240" controls>
+        <source src="assets/video/theclothstore.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <audio width="320" height="240" controls>
+        <source src="assets/audio/audio.mp3" type="audio/ogg">
+    </audio>
+
+
+    <!-- Table -->
+    <h2><em>Table</em></h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Technology</th>
+                <th>Skill label</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C, C++</td>
+                <td>★☆☆☆☆</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>★★☆☆☆</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>★★★☆☆</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Form -->
+
+    <h2>Form</h2>
+    <form action="https://formspree.io/f/xqkvgajl" method="post" autocomplete="off">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div>
+            <span>Gender:</span>
+            <input type="radio" id="male" name="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="20" rows="7"></textarea>
+        </div>
+        <!-- <input type="password">
+        <input type="color">
+        <input type="date"> -->
+        <button type="submit" aria-label="send a good message">send</button>
+    </form>
+
+    <!-- Semantic tag -->
+    <nav></nav>
+    <header></header>
+    <main>
+        <section>about me</section>
+        <section>eduction</section>
+        <section>skill</section>
+    </main>
+    <footer></footer>
+
+    <!-- role -->
+
+    <div role="button">click me</div>
+    <button>click me</button>
+
+
+
+</body>
+
+</html>
